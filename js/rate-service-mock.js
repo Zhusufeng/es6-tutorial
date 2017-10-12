@@ -11,7 +11,7 @@ let rates = [
   }
 ];
 
-export let findAll() = () => new Promise((resolve, reject) => {
+export let findAll = () => new Promise((resolve, reject) => {
   if (rates) {
     resolve(rates);
   } else {
