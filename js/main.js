@@ -1,3 +1,4 @@
+import Mortgage from './mortage2';
 // import * as mortgage from './mortgage';
 
 document.getElementById('calcBtn').addEventListener('click', () => {
